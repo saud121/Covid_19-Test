@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97e66a"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginVertical="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here is your screening test result"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"/>
+<com.app.infideap.stylishwidget.view.AMeter
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginVertical="40dp"
+android:id="@+id/meter"
+    android:gravity="center_horizontal"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/result"
+        android:textSize="25dp"
+        android:text=" "/>
+
+</LinearLayout>
